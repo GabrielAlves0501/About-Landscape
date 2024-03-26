@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F1F5F8;
+}
+
+header{
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    margin: 10px;
+}
+
+header p{
+    margin: 5px;
+}
+
+main{
+    margin: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main #imagem{
+    width: 40%;
+    height: 90%;
+    background-image: url(imagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+main #content{
+    width: 50%;
+    height: 90%;
+}
+
+main #content #botoes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+main #content #botoes button{
+    width: 34%;
+    height: 45px;
+    border: 0;
+    background-color: #DAE2EC;
+}
+
+main #content #botoes #history{
+    border-top-left-radius: 10px;
+}
+
+main #content #botoes #goals{
+    border-top-right-radius: 10px;
+}
+
+main #content #botoes button:hover{
+    background-color: white;
+    border: 1px solid #015FCC;
+    border-radius: 0 !important
+}
+
+main #content #botoes .selecionado{
+    background-color: white;
+    border: 1px solid #015FCC;
+    border-radius: 0 !important
+}
+
+main #content #article{
+    background-color: white;
+    height: 85%;
+}
+
+main #content #article ul{
+    list-style-type: none;
+    text-align: justify;
+}
+
+main #content #article h1{
+    text-align: center;
+    padding: 10px;
+}
+
+main #content #article span{
+    font-size: 1em;
+    padding: 5px;
+}
